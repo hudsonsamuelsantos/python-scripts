@@ -1,7 +1,6 @@
-primeiro_numero = input('primeiro número ')
-segundo_numero = input('segundo número ')
+primeiro_numero = int(input('primeiro número '))
+segundo_numero = int(input('segundo número '))
 
-int_primeiro_numero = int(primeiro_numero)
-int_segundo_numero = int(segundo_numero)
+soma = primeiro_numero + segundo_numero
 
-print(int_primeiro_numero + int_segundo_numero)
+print(soma)
